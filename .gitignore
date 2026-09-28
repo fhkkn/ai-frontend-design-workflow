@@ -1,0 +1,5 @@
+# Publish only the reviewed workflow documents.
+/*
+!/.gitignore
+!/README.md
+!/AI前端设计工作手册.md
