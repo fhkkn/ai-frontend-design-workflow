@@ -3,3 +3,17 @@
 !/.gitignore
 !/README.md
 !/AI前端设计工作手册.md
+!/templates/
+!/templates/*.md
+!/guides/
+!/guides/*.md
+!/examples/
+!/examples/meeting-notes/
+!/examples/meeting-notes/**
+
+# Keep local data and tooling out of every published directory.
+**/.env*
+**/node_modules/
+**/.local/
+**/*.log
+**/.DS_Store
