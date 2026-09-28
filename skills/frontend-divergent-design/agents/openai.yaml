@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端发散设计"
+  short_description: "通过随机约束与实际视觉候选探索鲜明的前端方向，再按选择深化并验证"
+  default_prompt: "使用 $frontend-divergent-design，为当前产品探索差异明显的实际视觉候选，展示后让我选择方向再深化。"

@@ -4,6 +4,10 @@
 
 完整文档：[AI 前端设计工作手册](AI前端设计工作手册.md)
 
+**提示词与 skill：** [可复制提示词库](prompts/README.md) · [随机发散提示词](prompts/random-exploration.md) · [前端发散设计 skill](skills/frontend-divergent-design/SKILL.md)
+
+希望摆脱雷同的视觉方案时，先用外部随机组合产生设计假设，再制作实际候选，选择后深化。随机性不保证美观，功能验收与视觉判断分别进行。
+
 ## 从这里开始
 
 | 你的任务 | 使用入口 | 重点 |

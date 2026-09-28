@@ -7,6 +7,15 @@
 !/templates/*.md
 !/guides/
 !/guides/*.md
+!/prompts/
+!/prompts/*.md
+!/skills/
+!/skills/frontend-divergent-design/
+!/skills/frontend-divergent-design/SKILL.md
+!/skills/frontend-divergent-design/agents/
+!/skills/frontend-divergent-design/agents/openai.yaml
+!/skills/frontend-divergent-design/scripts/
+!/skills/frontend-divergent-design/scripts/draw.py
 !/examples/
 !/examples/meeting-notes/
 !/examples/meeting-notes/**
@@ -17,3 +26,4 @@
 **/.local/
 **/*.log
 **/.DS_Store
+**/__pycache__/
