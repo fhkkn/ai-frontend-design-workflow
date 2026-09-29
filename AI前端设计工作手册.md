@@ -4,7 +4,7 @@
 适用范围：品牌官网、产品落地页、Web 应用、管理后台及现有产品的页面扩展。  
 目标：稳定产出符合产品用途、具有识别度、细节完整且可以交付的前端。
 
-快速入口：[按任务选择路线](guides/start.md) · [独立模板文件](templates/README.md) · [可运行实践案例](examples/meeting-notes/README.md)
+快速入口：[按任务选择路线](guides/start.md) · [独立模板文件](templates/README.md) · [可运行实践案例](examples/landscape/README.md)
 
 提示词入口：[提示词库](prompts/README.md) · [随机发散与视觉实验](prompts/random-exploration.md) · [前端发散设计 skill](skills/frontend-divergent-design/SKILL.md)
 

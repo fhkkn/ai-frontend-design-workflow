@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102b31">
+  <title>山水 · 山外有山</title>
+  <link rel="preload" href="assets/lake-nature.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="stage" id="stage" data-scene="lake" aria-label="山水风景长卷">
+  <div class="landscapes" aria-live="off">
+    <img id="landscape-a" class="landscape is-visible" src="assets/lake-nature.jpg" alt="暮光照亮山峰，林木与山色倒映在湖面" fetchpriority="high">
+    <img id="landscape-b" class="landscape" alt="" aria-hidden="true">
+  </div>
+  <div class="shade" aria-hidden="true"></div>
+  <header class="topline">
+    <a class="brand" href="#lake" data-chrome aria-label="山水，回到湖面">山水<span>SHAN SHUI</span></a>
+    <span class="top-caption" data-chrome>静观山水</span>
+    <button id="quiet" class="quiet-button" aria-pressed="false"><span id="quiet-label">只看风景</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5M15 4h5v5M4 15v5h5M20 15v5h-5"/></svg></button>
+  </header>
+  <section class="composition" data-chrome aria-labelledby="scene-title">
+    <div class="title-group">
+      <p class="overline"><span id="chapter-number">01</span><span class="small-rule"></span><span>山水之间</span></p>
+      <h1 id="scene-title"><span id="title-first">山外</span><span id="title-second">有山。</span></h1>
+      <p class="scene-line" id="scene-line">把目光放远一点。</p>
+    </div>
+    <aside class="scene-note"><span>此刻停留</span><h2 id="scene-name">湖与远山</h2><p id="scene-detail">暮光入山，山色入水。</p><span class="note-rule" aria-hidden="true"></span></aside>
+    <p class="vertical-caption" aria-hidden="true">山有尽处，目光无边</p>
+  </section>
+  <footer class="footer" data-chrome>
+    <div class="chapter-row">
+      <nav class="chapters" aria-label="选择风景章节">
+        <button data-scene="lake" aria-pressed="true" aria-label="湖面，第1景"><span>01</span><b>湖面</b></button>
+        <button data-scene="ridge" aria-pressed="false" aria-label="山脊，第2景"><span>02</span><b>山脊</b></button>
+        <button data-scene="night" aria-pressed="false" aria-label="夜色，第3景"><span>03</span><b>夜色</b></button>
+      </nav>
+      <div class="traverse"><span id="progress">01 / 03</span><button id="previous" aria-label="上一景"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H4m7-7-7 7 7 7"/></svg></button><button id="next" aria-label="下一景"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></button></div>
+    </div>
+    <div class="footnotes"><span class="keyboard-hint">← → 切换景色</span><a href="explorations/index.html">方向对比</a><a href="sources.html">图像出处 ↗</a></div>
+  </footer>
+  <div class="load-error" id="load-error" hidden role="alert"><span id="error-message">画面未能加载，仍保留上一景。</span><button id="retry">重试</button></div>
+  <p class="sr-only" role="status" id="status"></p>
+</main>
+<noscript><p class="no-script">当前为湖面静态景色；切换景色需要浏览器启用 JavaScript。</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>

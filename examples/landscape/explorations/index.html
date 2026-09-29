@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>山水 · 三种观看方式</title><link rel="stylesheet" href="compare.css"></head>
+<body>
+<header class="masthead"><a class="wordmark" href="../index.html">山水<span>视觉探索室</span></a><span class="step">01 主题 <i>—</i> <b>02 比较方向</b> <i>—</i> 03 深化 <i>—</i> 04 验证</span></header>
+<main><div class="intro"><div><span class="eyebrow">THREE WAYS OF SEEING</span><h1>同一片山水，<br>三种观看方式。</h1></div><p>先看画面，再选方向。<br>三份独立页面，共用一组风景摄影。<br>区别在于怎样进入、停留，以及发现下一幅。</p></div>
+<div class="candidates">
+<article><div class="caption"><span>A / IMMERSION</span><span>影像占满视野</span></div><a class="preview" href="a.html" aria-label="打开 A 沉浸长卷"><iframe src="a.html?preview" title="A 沉浸长卷缩览" tabindex="-1" inert></iframe><span class="open">进入长卷 ↗</span></a><div class="description"><h2>沉浸长卷</h2><p>山水铺满屏幕，巨幅字与细小索引形成对照。沿章节切换，或隐去文字，只看风景。</p><p class="tradeoff">观看感强；查找效率让位于停留。</p><a href="a.html">体验 A <span>↗</span></a></div></article>
+<article><div class="caption"><span>B / STILLNESS</span><span>留白构成画面</span></div><a class="preview" href="b.html" aria-label="打开 B 留白画廊"><iframe src="b.html?preview" title="B 留白画廊缩览" tabindex="-1" inert></iframe><span class="open">步入画廊 ↗</span></a><div class="description"><h2>留白画廊</h2><p>竖排题签、错落画幅与大片空白。像翻阅一本画册，展开一幅，再细看其中的山水。</p><p class="tradeoff">节奏疏朗；黑白处理弱化自然色彩。</p><a href="b.html">体验 B <span>↗</span></a></div></article>
+<article><div class="caption"><span>C / DISCOVERY</span><span>由索引探索风景</span></div><a class="preview" href="c.html" aria-label="打开 C 山川图志"><iframe src="c.html?preview" title="C 山川图志缩览" tabindex="-1" inert></iframe><span class="open">展开图志 ↗</span></a><div class="description"><h2>山川图志</h2><p>暗色底图、等高线与醒目的荧光索引。由湖面到山脊再到夜色，切换观察对象。</p><p class="tradeoff">探索感强；图形信息比纯观景更活跃。</p><a href="c.html">体验 C <span>↗</span></a></div></article>
+</div>
+<aside class="scope"><b>本轮可体验</b><p>A 切换景色 / 纯观景；B 展开画幅 / 切换黑白与原色；C 切换索引 / 隐藏等高线 / 放大影像。缩览用于比较，进入页面后可操作。</p><p>摄影与图形为视觉探索素材；没有音频、真实地图定位或旅行服务。定稿采用沉浸长卷，候选保留供比较。</p></aside>
+<footer><a href="../index.html">查看沉浸长卷定稿 ↗</a><a href="../sources.html">摄影来源与演示边界 ↗</a></footer></main>
+<script>const observer=new ResizeObserver(entries=>{for(const entry of entries){const frame=entry.target.querySelector('iframe');frame.style.transform=`scale(${entry.contentRect.width/1280})`;entry.target.style.height=`${entry.contentRect.width*880/1280}px`;}});document.querySelectorAll('.preview').forEach(el=>observer.observe(el));</script>
+</body></html>

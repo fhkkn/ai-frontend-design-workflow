@@ -18,19 +18,19 @@
 
 准备工作时直接复制 [templates/ 中的模板](templates/README.md)，下一轮按 [续接指令](guides/start.md#续接指令) 继续。完整流程与原理见工作手册。
 
-## 一个完整的实践案例
+## 可运行的山水设计案例
 
-[页间：会议纪要编辑器](examples/meeting-notes/README.md) 使用虚构内容，实际实现并验证了搜索、新建、编辑和浏览器本地保存。案例包含需求、方向取舍、首版源码、前后截图、自查与验收记录。
+[山水：沉浸长卷](examples/landscape/README.md) 以纯观景网页演示“真实视觉候选 → 方向深化 → 浏览器验证”的过程。保留沉浸长卷、留白画廊、山川图志三份可操作候选，定稿实现三景切换、键盘浏览和纯观景模式。案例包含需求、视觉规范、素材来源、截图、自查及验收记录。
 
-![会议纪要编辑器桌面效果](examples/meeting-notes/screenshots/after-desktop.png)
+![山水沉浸长卷桌面效果](examples/landscape/screenshots/desktop.png)
 
 在仓库根目录运行：
 
 ```sh
-python -m http.server 8765 --bind 127.0.0.1 --directory examples/meeting-notes
+python -m http.server 8765 --bind 127.0.0.1 --directory examples/landscape
 ```
 
-然后访问 http://127.0.0.1:8765 。运行页面只需 Python 静态服务器和浏览器，无需安装前端依赖。
+然后访问 http://127.0.0.1:8765 查看定稿，访问 http://127.0.0.1:8765/explorations/ 比较三份候选。运行页面只需 Python 静态服务器和浏览器，无需安装前端依赖。摄影保留各自许可，见[素材说明](examples/landscape/assets/README.md)。
 
 ## 工作路线
 

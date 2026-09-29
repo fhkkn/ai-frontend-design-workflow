@@ -17,8 +17,9 @@
 !/skills/frontend-divergent-design/scripts/
 !/skills/frontend-divergent-design/scripts/draw.py
 !/examples/
-!/examples/meeting-notes/
-!/examples/meeting-notes/**
+/examples/*
+!/examples/landscape/
+!/examples/landscape/**
 
 # Keep local data and tooling out of every published directory.
 **/.env*
