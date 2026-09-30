@@ -2,6 +2,7 @@
 /*
 !/.gitignore
 !/README.md
+!/AGENTS.md
 !/AI前端设计工作手册.md
 !/templates/
 !/templates/*.md
@@ -16,6 +17,8 @@
 !/skills/frontend-divergent-design/agents/openai.yaml
 !/skills/frontend-divergent-design/scripts/
 !/skills/frontend-divergent-design/scripts/draw.py
+!/skills/project-change-review/
+!/skills/project-change-review/SKILL.md
 !/examples/
 /examples/*
 !/examples/landscape/
